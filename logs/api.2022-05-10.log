@@ -1,0 +1,23 @@
+2022:05:10 00:39:40.843 [INFO ] --- [main] com.app.messages.Application : Starting Application using Java 17.0.2 on Changukui-MacBookPro.local with PID 78734 (/Users/changuklee/IdeaProjects/kakao/app.messages/build/classes/java/main started by changuklee in /Users/changuklee/IdeaProjects/kakao/app.messages) 
+2022:05:10 00:39:40.844 [DEBUG] --- [main] com.app.messages.Application : Running with Spring Boot v2.6.7, Spring v5.3.19 
+2022:05:10 00:39:40.844 [INFO ] --- [main] com.app.messages.Application : The following 1 profile is active: "local" 
+2022:05:10 00:39:41.238 [DEBUG] --- [main] c.a.messages.filter.AuditingFilter : Filter 'auditingFilter' configured for use 
+2022:05:10 00:39:41.398 [INFO ] --- [main] com.app.messages.Application : Started Application in 0.712 seconds (JVM running for 0.998) 
+2022:05:10 00:40:07.808 [INFO ] --- [main] com.app.messages.Application : Starting Application using Java 17.0.2 on Changukui-MacBookPro.local with PID 78736 (/Users/changuklee/IdeaProjects/kakao/app.messages/build/classes/java/main started by changuklee in /Users/changuklee/IdeaProjects/kakao/app.messages) 
+2022:05:10 00:40:07.809 [DEBUG] --- [main] com.app.messages.Application : Running with Spring Boot v2.6.7, Spring v5.3.19 
+2022:05:10 00:40:07.809 [INFO ] --- [main] com.app.messages.Application : The following 1 profile is active: "local" 
+2022:05:10 00:40:08.258 [DEBUG] --- [main] c.a.messages.filter.AuditingFilter : Filter 'auditingFilter' configured for use 
+2022:05:10 00:40:08.428 [INFO ] --- [main] com.app.messages.Application : Started Application in 0.788 seconds (JVM running for 1.042) 
+2022:05:10 00:52:06.778 [INFO ] --- [main] com.app.messages.Application : Starting Application using Java 17.0.2 on Changukui-MacBookPro.local with PID 78762 (/Users/changuklee/IdeaProjects/kakao/app.messages/build/classes/java/main started by changuklee in /Users/changuklee/IdeaProjects/kakao/app.messages) 
+2022:05:10 00:52:06.779 [DEBUG] --- [main] com.app.messages.Application : Running with Spring Boot v2.6.7, Spring v5.3.19 
+2022:05:10 00:52:06.779 [INFO ] --- [main] com.app.messages.Application : The following 1 profile is active: "local" 
+2022:05:10 00:52:07.326 [DEBUG] --- [main] c.a.messages.filter.AuditingFilter : Filter 'auditingFilter' configured for use 
+2022:05:10 00:52:07.547 [INFO ] --- [main] com.app.messages.Application : Started Application in 0.951 seconds (JVM running for 1.256) 
+2022:05:10 00:52:22.392 [INFO ] --- [http-nio-8080-exec-1] com.app.messages.MessageRepository : Saved message : Hello 
+2022:05:10 00:52:22.498 [DEBUG] --- [http-nio-8080-exec-1] c.a.messages.filter.AuditingFilter : Request[uri=/test/hello, method=GET] completed in 117 ms 
+2022:05:10 00:52:31.522 [INFO ] --- [http-nio-8080-exec-2] com.app.messages.MessageRepository : Saved message : Hello 
+2022:05:10 00:52:31.538 [DEBUG] --- [http-nio-8080-exec-2] c.a.messages.filter.AuditingFilter : Request[uri=/test/hello, method=GET] completed in 17 ms 
+2022:05:10 00:52:32.078 [INFO ] --- [http-nio-8080-exec-3] com.app.messages.MessageRepository : Saved message : Hello 
+2022:05:10 00:52:32.094 [DEBUG] --- [http-nio-8080-exec-3] c.a.messages.filter.AuditingFilter : Request[uri=/test/hello, method=GET] completed in 17 ms 
+2022:05:10 00:52:32.450 [INFO ] --- [http-nio-8080-exec-4] com.app.messages.MessageRepository : Saved message : Hello 
+2022:05:10 00:52:32.458 [DEBUG] --- [http-nio-8080-exec-4] c.a.messages.filter.AuditingFilter : Request[uri=/test/hello, method=GET] completed in 8 ms 

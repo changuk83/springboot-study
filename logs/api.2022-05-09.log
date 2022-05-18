@@ -1,0 +1,42 @@
+2022:05:09 00:33:42.204 [INFO ] --- [main] com.app.messages.Application : Starting Application using Java 17.0.2 on Changukui-MacBookPro.local with PID 77651 (/Users/changuklee/IdeaProjects/kakao/app.messages/build/classes/java/main started by changuklee in /Users/changuklee/IdeaProjects/kakao/app.messages) 
+2022:05:09 00:33:42.205 [DEBUG] --- [main] com.app.messages.Application : Running with Spring Boot v2.6.7, Spring v5.3.19 
+2022:05:09 00:33:42.206 [INFO ] --- [main] com.app.messages.Application : The following 1 profile is active: "local" 
+2022:05:09 00:33:42.680 [INFO ] --- [main] com.app.messages.Application : Started Application in 0.636 seconds (JVM running for 0.892) 
+2022:05:09 00:33:57.103 [INFO ] --- [main] com.app.messages.Application : Starting Application using Java 17.0.2 on Changukui-MacBookPro.local with PID 77658 (/Users/changuklee/IdeaProjects/kakao/app.messages/build/classes/java/main started by changuklee in /Users/changuklee/IdeaProjects/kakao/app.messages) 
+2022:05:09 00:33:57.103 [DEBUG] --- [main] com.app.messages.Application : Running with Spring Boot v2.6.7, Spring v5.3.19 
+2022:05:09 00:33:57.104 [INFO ] --- [main] com.app.messages.Application : The following 1 profile is active: "local" 
+2022:05:09 00:35:17.530 [INFO ] --- [main] com.app.messages.Application : Starting Application using Java 17.0.2 on Changukui-MacBookPro.local with PID 77668 (/Users/changuklee/IdeaProjects/kakao/app.messages/build/classes/java/main started by changuklee in /Users/changuklee/IdeaProjects/kakao/app.messages) 
+2022:05:09 00:35:17.531 [DEBUG] --- [main] com.app.messages.Application : Running with Spring Boot v2.6.7, Spring v5.3.19 
+2022:05:09 00:35:17.531 [INFO ] --- [main] com.app.messages.Application : The following 1 profile is active: "local" 
+2022:05:09 00:35:18.128 [INFO ] --- [main] com.app.messages.Application : Started Application in 0.759 seconds (JVM running for 1.042) 
+2022:05:09 00:36:35.260 [INFO ] --- [main] com.app.messages.Application : Starting Application using Java 17.0.2 on Changukui-MacBookPro.local with PID 77673 (/Users/changuklee/IdeaProjects/kakao/app.messages/build/classes/java/main started by changuklee in /Users/changuklee/IdeaProjects/kakao/app.messages) 
+2022:05:09 00:36:35.261 [DEBUG] --- [main] com.app.messages.Application : Running with Spring Boot v2.6.7, Spring v5.3.19 
+2022:05:09 00:36:35.261 [INFO ] --- [main] com.app.messages.Application : The following 1 profile is active: "local" 
+2022:05:09 00:36:35.757 [INFO ] --- [main] com.app.messages.Application : Started Application in 0.693 seconds (JVM running for 0.996) 
+2022:05:09 00:36:53.082 [INFO ] --- [main] com.app.messages.Application : Starting Application using Java 17.0.2 on Changukui-MacBookPro.local with PID 77679 (/Users/changuklee/IdeaProjects/kakao/app.messages/build/classes/java/main started by changuklee in /Users/changuklee/IdeaProjects/kakao/app.messages) 
+2022:05:09 00:36:53.083 [DEBUG] --- [main] com.app.messages.Application : Running with Spring Boot v2.6.7, Spring v5.3.19 
+2022:05:09 00:36:53.083 [INFO ] --- [main] com.app.messages.Application : The following 1 profile is active: "local" 
+2022:05:09 00:36:53.568 [INFO ] --- [main] com.app.messages.Application : Started Application in 0.658 seconds (JVM running for 0.92) 
+2022:05:09 00:37:06.149 [INFO ] --- [http-nio-8080-exec-4] com.app.messages.MessageRepository : Saved message : Hello 
+2022:05:09 22:56:35.273 [INFO ] --- [main] com.app.messages.Application : Starting Application using Java 17.0.2 on Changukui-MacBookPro.local with PID 78342 (/Users/changuklee/IdeaProjects/kakao/app.messages/build/classes/java/main started by changuklee in /Users/changuklee/IdeaProjects/kakao/app.messages) 
+2022:05:09 22:56:35.274 [DEBUG] --- [main] com.app.messages.Application : Running with Spring Boot v2.6.7, Spring v5.3.19 
+2022:05:09 22:56:35.275 [INFO ] --- [main] com.app.messages.Application : The following 1 profile is active: "local" 
+2022:05:09 22:56:35.706 [INFO ] --- [main] com.app.messages.Application : Started Application in 0.597 seconds (JVM running for 0.809) 
+2022:05:09 22:57:09.358 [INFO ] --- [http-nio-8080-exec-1] com.app.messages.MessageRepository : Saved message : Hello 
+2022:05:09 22:57:09.927 [INFO ] --- [http-nio-8080-exec-2] com.app.messages.MessageRepository : Saved message : Hello 
+2022:05:09 22:57:10.401 [INFO ] --- [http-nio-8080-exec-3] com.app.messages.MessageRepository : Saved message : Hello 
+2022:05:09 22:57:10.641 [INFO ] --- [http-nio-8080-exec-4] com.app.messages.MessageRepository : Saved message : Hello 
+2022:05:09 22:57:10.859 [INFO ] --- [http-nio-8080-exec-5] com.app.messages.MessageRepository : Saved message : Hello 
+2022:05:09 22:57:11.084 [INFO ] --- [http-nio-8080-exec-6] com.app.messages.MessageRepository : Saved message : Hello 
+2022:05:09 22:57:11.262 [INFO ] --- [http-nio-8080-exec-7] com.app.messages.MessageRepository : Saved message : Hello 
+2022:05:09 23:17:38.120 [INFO ] --- [main] com.app.messages.Application : Starting Application using Java 17.0.2 on Changukui-MacBookPro.local with PID 78474 (/Users/changuklee/IdeaProjects/kakao/app.messages/build/classes/java/main started by changuklee in /Users/changuklee/IdeaProjects/kakao/app.messages) 
+2022:05:09 23:17:38.121 [DEBUG] --- [main] com.app.messages.Application : Running with Spring Boot v2.6.7, Spring v5.3.19 
+2022:05:09 23:17:38.121 [INFO ] --- [main] com.app.messages.Application : The following 1 profile is active: "local" 
+2022:05:09 23:17:38.454 [DEBUG] --- [main] c.a.messages.filter.AuditingFilter : Filter 'auditingFilter' configured for use 
+2022:05:09 23:17:38.566 [INFO ] --- [main] com.app.messages.Application : Started Application in 0.603 seconds (JVM running for 0.874) 
+2022:05:09 23:17:47.046 [INFO ] --- [http-nio-8080-exec-1] com.app.messages.MessageRepository : Saved message : Hello 
+2022:05:09 23:17:47.073 [DEBUG] --- [http-nio-8080-exec-1] c.a.messages.filter.AuditingFilter : Request[uri=/test/hello, method=GET] completed in 38 ms 
+2022:05:09 23:19:50.997 [INFO ] --- [http-nio-8080-exec-3] com.app.messages.MessageRepository : Saved message : Hello 
+2022:05:09 23:19:51.001 [DEBUG] --- [http-nio-8080-exec-3] c.a.messages.filter.AuditingFilter : Request[uri=/test/hello, method=GET] completed in 5 ms 
+2022:05:09 23:19:52.385 [INFO ] --- [http-nio-8080-exec-4] com.app.messages.MessageRepository : Saved message : Hello 
+2022:05:09 23:19:52.389 [DEBUG] --- [http-nio-8080-exec-4] c.a.messages.filter.AuditingFilter : Request[uri=/test/hello, method=GET] completed in 5 ms 
