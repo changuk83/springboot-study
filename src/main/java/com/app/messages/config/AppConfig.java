@@ -5,6 +5,7 @@ import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
@@ -26,6 +27,7 @@ public class AppConfig {
      * Hibernate 에서 Session 은 Entity를 저장하고 불러오기 위한 주요 interface
      * SessionFactory instance 에서 Session 을 생성할 수 있는데
      * SessionFactory 의 instance 를 생성하려면 Spring 의 LocalSessionFactoryBean 을 사용하면 된다.
+     * SessionFactory 와 EntityManager 는 비슷한 개념.
      * @return
      */
     @Bean
@@ -50,5 +52,16 @@ public class AppConfig {
         return registrationBean;
     }
 
-
+    /**
+     * @EnableTransactionManagement 를 설정한 후 작성해야 함.
+     * PlatformTransactionManager의 구현체가 HibernateTransactionManager 임.
+     * JDBC는 DataSourceTransactionManager, JPA는 JpaTransactionManager, JTA는 JtaTransactionManager 이다.
+     * @return
+     */
+    @Bean
+    public HibernateTransactionManager transactionManager() {
+        HibernateTransactionManager transactionManager = new HibernateTransactionManager();
+        transactionManager.setSessionFactory(sessionFactory().getObject());
+        return transactionManager;
+    }
 }

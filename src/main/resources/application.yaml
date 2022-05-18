@@ -8,3 +8,6 @@ spring:
     username: jden
     password: jden
     driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    open-in-view: false
