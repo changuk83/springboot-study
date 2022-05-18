@@ -6,14 +6,14 @@ import javax.transaction.Transactional;
 
 @Service
 public class MessageService {
-    private MessageRepository messageRepository;
+    private MessageRepositoryForOpenSession messageRepositoryForOpenSession;
 
-    public MessageService(MessageRepository messageRepository) {
-        this.messageRepository = messageRepository;
+    public MessageService(MessageRepositoryForOpenSession messageRepositoryForOpenSession) {
+        this.messageRepositoryForOpenSession = messageRepositoryForOpenSession;
     }
 
     @Transactional
     public Message save(String text) {
-        return this.messageRepository.saveMessage(new Message(text));
+        return this.messageRepositoryForOpenSession.saveMessage(new Message(text));
     }
 }
